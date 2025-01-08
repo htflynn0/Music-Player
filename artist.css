@@ -8,52 +8,35 @@ body {
     margin: 0;
     font-family: 'San Francisco', Helvetica, Arial, san-serif;
 }
-
-nav{
-    background-color: #420270;
-    padding: 1.5vw 5vw;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    
+#Nav{
+    background-color: #420270 !important;
 }
-.search-container {
-    background-color: #D7C0D8;
-    position: relative;
-    border-radius: 30px;
-    padding-inline:2vh 2vh;
-    min-height: 5vh;
-    min-width: 35vw;
-  }
-.search-box {
-    background-color: transparent;
-    outline: none;
-    height: 3vh;
-    font-size: 15px;
-    border: 0;
-    width: 100%;
-    min-height: 5vh;
-}
-.search-button {
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color: #A659BD;
-    border-radius: 0px 30px 30px 0px;
+#Home-Button{
     border: none;
-    color: #FFF;
-    min-width: 5vw;
-    min-height: 5vh;
-    cursor: pointer;
+    background-color: #420270;
+    color: #D7C0D8;
 }
-.search-button:hover{
-    background-color: #a659bda2;
+#Home-Button:hover{
+    background-color: #A659BD;
+    color: #420270;
 }
-
+#Search-Button{
+    border: none;
+    background-color: #420270;
+    color: #D7C0D8;
+}
+#Search-Button:hover{
+    border: none;
+    background-color: #A659BD;
+    color: #420270;
+}
+#searcher{
+    color: #A659BD !important;
+}
 main{
     display: flex;
 }
-.sidebar-container{
+/* .sidebar-container{
     background-color: #420270;
     max-width: 20vw;
     min-height: 100%;
@@ -77,7 +60,7 @@ main{
     text-decoration: none;
     color: #D7C0D8;
 }
-
+ */
 
 
 
